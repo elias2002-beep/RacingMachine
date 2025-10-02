@@ -1,0 +1,50 @@
+body {
+    background-image: url(image/corrida.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+h1 {
+    color: rgba(229, 255, 0, 0.986);
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    color: rgba(229, 255, 0, 0.986);
+    text-align: center;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.resultados {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 70px auto 0 auto;
+    color: rgba(229, 255, 0, 0.986);
+}
+
+.resultados .esquerda {
+    text-align: left;
+    flex: 0;
+}
+
+.resultados .centro {
+    text-align: center;
+    flex: 0;
+}
+
+.resultados .direita {
+    text-align: right;
+    flex: 0;
+}
